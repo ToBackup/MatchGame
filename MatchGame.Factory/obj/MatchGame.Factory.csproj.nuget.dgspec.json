@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Factory\\MatchGame.Factory.csproj": {}
+  },
+  "projects": {
+    "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Factory\\MatchGame.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Factory\\MatchGame.Factory.csproj",
+        "projectName": "MatchGame.Factory",
+        "projectPath": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Factory\\MatchGame.Factory.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Models\\MatchGame.Models.csproj": {
+                "projectPath": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Models\\MatchGame.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Models\\MatchGame.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Models\\MatchGame.Models.csproj",
+        "projectName": "MatchGame.Models",
+        "projectPath": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Models\\MatchGame.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Den\\100_代码项目箱\\120_未完成项目\\火柴游戏\\MatchGame\\MatchGame.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
