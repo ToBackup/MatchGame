@@ -10,17 +10,12 @@ namespace MatchGame.Factory
         /// <summary>
         /// 游戏开始
         /// </summary>
-        void Start();
+        /// <returns>输家</returns>
+        Player Start();
         /// <summary>
         /// 加入玩家
         /// </summary>
         /// <param name="player">玩家</param>
-        void JoinPlayer(Player player);
-
-        /// <summary>
-        /// 赢家
-        /// </summary>
-        /// <returns></returns>
-        Player Winner();
+        void JoinPlayer(Player[] players);
     }
 }

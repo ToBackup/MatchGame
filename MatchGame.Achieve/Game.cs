@@ -8,7 +8,7 @@ namespace MatchGame.Achieve
 {
     class Game : IGame
     {
-        private LinkedList<Player> _players = new LinkedList<Player>();
+        private Player[] _players;
         private int[] _count;
         private int max;
         public Game(int[] count)
@@ -20,10 +20,35 @@ namespace MatchGame.Achieve
             }
         }
 
-        public void JoinPlayer(Player player)
+        public virtual void JoinPlayer(Player[] players)
         {
-            player.Extract += Player_ExtractEvent;
-            _players.AddLast(player);
+            _players = players;
+            foreach (Player player in _players)
+            {
+                player.Extract += Player_ExtractEvent;
+            }
+        }
+
+        public Player Start()
+        {
+            Player current = null;
+
+            int index = 0;
+            while(!IsEnd())
+            {
+                current = _players[index];
+                var ic = current.Get();
+            }
+
+
+            return current;
+        }
+        protected virtual bool IsEnd()
+        {
+            bool isEnd = false;
+
+
+            return isEnd;
         }
 
         private void Player_ExtractEvent(int index, int count)
@@ -32,20 +57,19 @@ namespace MatchGame.Achieve
             _count[index] -= count;
         }
 
-        public void Start()
-        {
-            LinkedListNode<Player> currentNode = _players.First;
-            while(max>0)
-            {
-                Player currentPlayer = currentNode.Value;
-                var r = currentPlayer.Get?.Invoke();
-                if(r!=null)
-                    currentPlayer.Extract?.Invoke(r.Value.Index, r.Value.Count);
+        //public void Start()
+        //{
+        //    int index = 0;
+        //    while(End())
+        //    {
+        //        Player currentPlayer = _players[index];
+        //        var r = currentPlayer.Get?.Invoke();
+        //        if(r!=null)
+        //            currentPlayer.Extract?.Invoke(r.Value.Index, r.Value.Count);
 
 
-                currentNode = currentNode.Next ?? _players.First;
-            }
-        }
-
+        //        index = index++ >= _players.Length ? 0 : index;
+        //    }
+        //}
     }
 }
